@@ -1,0 +1,122 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #BF0A3A, #FF5C5C, #BF0A3A);
+
+}
+#main {
+  background-image: linear-gradient(rgba(191, 10, 58, 1), rgba(255, 92, 92, 0.8)), url('../img/backgroundsection1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#section-1 {
+    background: linear-gradient(to bottom right, #BF0A3A, #FF5C5C, #BF0A3A);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+#section-1 h1 {
+  color: #BF0A3A;
+  font-size: 4rem;
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+  
+#section-1 p {
+    font-size: 1rem;
+    text-align: center;
+    width: 30%;
+  }
+
+#section-1 ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 50%;
+    padding-bottom: 25px;
+}
+#section-1 li {
+    display: inline-block;
+    margin: 0;
+}
+
+#video-slider {
+    width: 100%;
+    margin: 0;
+    border: 0;
+}
+
+
+
+#banner {
+  display: flex;
+  height: 26rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+
+#banner h2 {
+  color: #F2F2F2;
+  line-height: 10px;
+  text-shadow: 2px 2px 2px #F28599;
+}
+
+#banner p {
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+}
+
+#banner ul {
+  display: flex;
+  justify-content:  space-evenly;
+  padding: 0px 0px 25px;
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+#banner li {
+  border: 2px solid linear-gradient(to bottom, #F2F2F2, #F28599);
+  background: linear-gradient(to bottom right, #BF0A3A, #e1335b, #bf0a3a);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 26px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Anybody', cursive;
+  color: #F2F2F2;
+  font-weight: bold;
+}
+
+#banner li:hover {
+  background: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
+  color: #bf0a3a;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 1.2;
+  font-family: "Anybody", sans-serif;
+}
+
+h2:first-child {
+  margin-top: 2rem;
+}
+
+a:hover {
+  color: #e1335b;
+  transition: 0.3s all;
+}
